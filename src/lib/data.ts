@@ -41,6 +41,7 @@ export const musicians: Musician[] = [
 export const videoIds: string[] = [
   "RkXamNeUJow",
   "ggHRHZT34Ak",
+  "COYtRU6_F_o",
   "qYhKm8HNnj8",
   "n91CEUwXmrQ",
   "BltPBP-RD1s",
