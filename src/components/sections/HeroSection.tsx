@@ -17,7 +17,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen flex-col bg-secondary scroll-snap-start"
+      className="relative flex h-screen flex-col bg-secondary"
     >
       {/* Parallax background */}
       <div

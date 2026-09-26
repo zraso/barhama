@@ -40,6 +40,7 @@ export default function Navigation() {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
+    setActiveSection(sectionId);
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: "smooth", block: "start" });
     setMenuOpen(false);

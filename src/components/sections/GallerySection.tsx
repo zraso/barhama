@@ -23,7 +23,7 @@ export default function GallerySection() {
   return (
     <section
       id="gallery"
-      className="min-h-screen bg-background py-16 px-6 sm:px-8 pb-24 scroll-snap-start"
+      className="min-h-screen bg-background py-16 px-6 sm:px-8 pb-24"
     >
       <div className="max-w-6xl mx-auto">
         <motion.h2
