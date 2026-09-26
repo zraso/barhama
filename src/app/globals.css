@@ -26,6 +26,9 @@ body {
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: -0.015em;
+  min-height: 100vh;
+  min-height: 100dvh;
+  position: relative;
 }
 
 /* Smooth scroll behavior */
