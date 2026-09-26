@@ -9,7 +9,7 @@ export default function BandSection() {
   return (
     <section
       id="band"
-      className="min-h-screen bg-background py-16 px-6 sm:px-8"
+      className="min-h-screen bg-background py-16 px-6 sm:px-8 relative z-20"
     >
       <div className="max-w-6xl mx-auto">
         <motion.h2

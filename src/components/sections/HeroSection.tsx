@@ -17,7 +17,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative flex h-screen flex-col bg-secondary"
+      className="relative flex h-screen flex-col bg-secondary z-10"
     >
       {/* Parallax background */}
       <div

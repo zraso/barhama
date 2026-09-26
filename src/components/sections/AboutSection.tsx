@@ -16,7 +16,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="min-h-screen bg-background py-16 px-6 sm:px-8"
+      className="min-h-screen bg-background py-16 px-6 sm:px-8 relative z-20"
     >
       <div className="max-w-5xl mx-auto">
         <motion.h2
