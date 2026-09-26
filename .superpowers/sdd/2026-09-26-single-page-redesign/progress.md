@@ -23,3 +23,4 @@ Task 10: complete (commits c933054..09495fa, tests: npx tsc --noEmit → no erro
 Task 11: complete (commits 09495fa..3ade2cc, tests: npm run build → success)
 Task 12: complete (commits 3ade2cc..b7f622e, tests: npx tsc --noEmit → no errors)
 Task 13: complete (commits b7f622e..63b169f, tests: npm run build → success)
+Task 14: complete (commits 63b169f..fc9e117, tests: npm run build → success, old routes removed)
