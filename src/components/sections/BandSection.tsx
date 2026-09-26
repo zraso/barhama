@@ -30,7 +30,7 @@ export default function BandSection() {
           viewport={{ once: true }}
         >
           <h3 className="text-2xl sm:text-3xl font-semibold text-white mb-5 tracking-tight">
-            Sitaa Ba Band: The Big Baobab
+            Sita-Baa Band: The Big Baobab
           </h3>
           <div className="space-y-5 text-base sm:text-lg text-gray-300 leading-relaxed">
             <p>
@@ -40,7 +40,7 @@ export default function BandSection() {
               culture, and community traditions.
             </p>
             <p>
-              Sitaa Ba is a musical band dedicated to revitalizing traditional
+              Sita-Baa is a musical band dedicated to revitalizing traditional
               Gambian sounds while seamlessly blending them with global
               influences. This fusion not only honors our roots but also bridges
               connections with the world beyond, allowing us to share our rich
@@ -130,13 +130,13 @@ export default function BandSection() {
             {musicians.map((musician) => (
               <motion.article
                 key={musician.name}
-                className="bg-gray-900/40 border border-gray-800 rounded-xl p-5 sm:p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+                className="p-5 sm:p-6 hover:-translate-y-1 transition-all duration-300"
                 variants={{
                   hidden: { opacity: 0, y: 20 },
                   show: { opacity: 1, y: 0 },
                 }}
               >
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg border border-gray-800 bg-gray-900/40 mb-4">
+                <div className="relative aspect-[4/3] w-full overflow-hidden mb-4">
                   <Image
                     src={musician.imageSrc}
                     alt={musician.name}

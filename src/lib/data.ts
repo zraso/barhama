@@ -27,18 +27,20 @@ export const musicians: Musician[] = [
     role: "Calabash & Percussion",
     imageSrc: "/abdoulie-kuyateh.jpg",
     summary:
-      "Abdoulie is a Gambian percussionist and calabash player born into a griot family where music is inherited as much as learned. He began playing in junior school and was the first balafon player in his early musical environment before deepening into Afro-Manding rhythm and calabash work. His journey also passed through formal institutions, including the Gambia Police Force band as a saxophonist and later the Gambia Airport Authority, before he chose to follow his artistic purpose full time. He has performed across regional spaces, integrating traditional percussion into contemporary settings, and speaks plainly about what Gambian musicians need most: stronger infrastructure and support, not more talent. In Sitaa Ba, he strengthens the band's Afro-Manding foundation with precision, depth, and cultural grounding.",
+      "Abdoulie is a Gambian percussionist and calabash player born into a griot family where music is inherited as much as learned. He began playing in junior school and was the first balafon player in his early musical environment before deepening into Afro-Manding rhythm and calabash work. His journey also passed through formal institutions, including the Gambia Police Force band as a saxophonist and later the Gambia Airport Authority, before he chose to follow his artistic purpose full time. He has performed across regional spaces, integrating traditional percussion into contemporary settings, and speaks plainly about what Gambian musicians need most: stronger infrastructure and support, not more talent. In Sita-Baa, he strengthens the band's Afro-Manding foundation with precision, depth, and cultural grounding.",
   },
   {
     name: "Mbemba Saho",
     role: "Kora",
     imageSrc: "/mbemba-saho.jpg",
     summary:
-      "Mbemba is a Gambian kora player from Bakoteh, carrying a lineage where the instrument is both inheritance and responsibility, passed from his grandfather through his father, Seikou Saho Jali, a respected griot and master player. He learned under his elder brother Souleyman Jobateh when touring schedules made daily instruction harder to hold, then deepened his craft through curiosity, discipline, and expanding music theory. That foundation allows him to move the kora across reggae, jazz, and modern African contexts without losing its voice, shaped further by the influence of the late Ansumana Suso. Beyond performance, he is committed to teaching younger generations that the kora is Gambian in origin and story, restoring knowledge alongside sound. With Sitaa Ba, he brings continuity, mastery, and a clear sense of where the music comes from and where it can travel next.",
+      "Mbemba is a Gambian kora player from Bakoteh, carrying a lineage where the instrument is both inheritance and responsibility, passed from his grandfather through his father, Seikou Saho Jali, a respected griot and master player. He learned under his elder brother Souleyman Jobateh when touring schedules made daily instruction harder to hold, then deepened his craft through curiosity, discipline, and expanding music theory. That foundation allows him to move the kora across reggae, jazz, and modern African contexts without losing its voice, shaped further by the influence of the late Ansumana Suso. Beyond performance, he is committed to teaching younger generations that the kora is Gambian in origin and story, restoring knowledge alongside sound. With Sita-Baa, he brings continuity, mastery, and a clear sense of where the music comes from and where it can travel next.",
   },
 ];
 
 export const videoIds: string[] = [
+  "RkXamNeUJow",
+  "ggHRHZT34Ak",
   "qYhKm8HNnj8",
   "n91CEUwXmrQ",
   "BltPBP-RD1s",

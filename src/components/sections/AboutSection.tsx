@@ -144,7 +144,7 @@ export default function AboutSection() {
                   </motion.span>
                 ))}
               </div>
-              <div className="bg-gray-900/30 border border-gray-800 rounded-2xl p-6 sm:p-8 max-w-3xl mx-auto space-y-5 text-left sm:text-center">
+              <div className="max-w-3xl mx-auto space-y-5 text-left sm:text-center mt-8">
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
                   By the time he formally began his career in{" "}
                   <span className="text-primary font-medium">2016</span>,
