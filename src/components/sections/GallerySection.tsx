@@ -51,7 +51,7 @@ export default function GallerySection() {
           {galleryImages.map((src, idx) => (
             <motion.div
               key={src}
-              className="relative rounded-xl overflow-hidden shadow-2xl bg-gray-900 hover:shadow-primary/30 transition-all duration-300 hover:scale-105 cursor-pointer"
+              className="relative overflow-hidden shadow-2xl bg-gray-900 cursor-pointer opacity-60 hover:opacity-100 transition-opacity duration-300"
               onClick={() => openLightbox(idx)}
               variants={{
                 hidden: { opacity: 0, y: 20 },
@@ -59,15 +59,13 @@ export default function GallerySection() {
               }}
               whileHover={{ scale: 1.05 }}
             >
-              <div className="rounded-xl overflow-hidden">
-                <Image
-                  src={src}
-                  alt={`Barhama Cham Gallery ${idx + 1}`}
-                  width={600}
-                  height={800}
-                  className="object-cover w-full h-80 sm:h-96 md:h-[28rem]"
-                />
-              </div>
+              <Image
+                src={src}
+                alt={`Barhama Cham Gallery ${idx + 1}`}
+                width={600}
+                height={800}
+                className="object-cover w-full h-80 sm:h-96 md:h-[28rem]"
+              />
             </motion.div>
           ))}
         </motion.div>

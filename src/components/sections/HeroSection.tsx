@@ -48,7 +48,7 @@ export default function HeroSection() {
               Barhama Cham
             </h1>
             <p className="text-xl sm:text-2xl md:text-3xl text-accent font-medium drop-shadow-md tracking-tight">
-              The Voice of The Gambia
+              The Golden Voice
             </p>
           </motion.div>
         </div>
