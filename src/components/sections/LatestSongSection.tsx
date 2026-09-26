@@ -8,7 +8,7 @@ export default function LatestSongSection() {
   return (
     <section
       id="latest"
-      className="min-h-screen bg-background py-16 px-6 sm:px-8 relative z-20 flex items-center"
+      className="bg-background py-8 sm:py-16 px-6 sm:px-8 relative z-20"
     >
       <div className="max-w-4xl mx-auto w-full">
         <motion.div
